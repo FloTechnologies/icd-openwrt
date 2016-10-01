@@ -139,4 +139,8 @@
 	ohci@101c1000 {
 		status = "okay";
 	};
+
+	wmac@10180000 {
+		ralink,mtd-eeprom = <&factory 0>;
+	};
 };
